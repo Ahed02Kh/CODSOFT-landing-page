@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #F9E897;
+  }
+
+  .topnav img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 25px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: serif;
+  }
+  
+  .topnav a:hover {
+    background-color: gray;
+    color: white;
+    font-family: serif;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+    font-family: serif;
+  }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .container img {
+    width: 1700px;
+    height: 500px;
+  }
+  .container h2{
+    position: absolute;
+    top: 150px;
+    left: 470px;
+    transform: translate(-90%, -50%);
+    text-decoration: underline;
+    -webkit-text-stroke-width: thin;
+    font-size: xxx-large;
+    font-family: serif;
+}
+
+.container p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 2px white;
+    text-transform: capitalize;
+    text-align: justify;
+    -webkit-text-stroke-width: thin;
+    font-size: larger;
+    font-family: serif;
+}
+
+  .column {
+    float: left;
+    background-color: #f9e897;
+    width: 250px;
+    height: 200px;
+    padding: 40px;
+    margin: 25px;
+    border-radius: 70px;
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column:hover {
+    margin-top: 10px;
+    background: gray;
+    transition: .5s;
+    color: white;
+    font-family: serif;
+  }
+   
+  .column h2{
+    transform: translate(50px, -50px);
+    font-size: 40px;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: serif;
+  }
+
+  .column img {
+    height: 150px;
+    width: 150px;
+    transform: translate(50px,-10px);
+}
+
+
+.about{
+  display: inline-block;
+
+}
+
+.about img{
+  margin: 70px;
+  border-radius: 20px;
+  float: inline-start;
+  display: inline-block;
+}
+
+.about h2{
+  display: inline-block;
+  margin-top: 50px;
+  font-size: xx-large;
+  float: inherit;
+  font-family: serif;
+  border-bottom-style: dashed;
+}
+
+.about p{
+  font-size: larger;
+    display: flex;
+    font-style: italic;
+    font-family: serif;
+    margin-right: 50px;
+    padding-right: 50px
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #fce888;
+  padding: 10px;
+}
+
+.footer > div {
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer a{
+  display: grid;
+    color: black;
+    border: thick;
+}
